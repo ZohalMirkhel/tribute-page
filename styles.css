@@ -3,7 +3,9 @@ html {
 }
 
 body {
-  font-family: Arial;
+  font-family: 
+    Arial, 
+    sans-serif;
   font-size: 1rem;
   line-height: 1;
   text-align: center;
@@ -55,18 +57,18 @@ h2 {
 }
 
 a {
-  color: #477CA7;
+  color: #477ca7;
 }
 
 a:visited {
-  color: #74638F;
+  color: #74638f;
 }
 
 #main {
   margin: 30px 7px;
   padding: 15px;
   border-radius: 5px;
-  background: #EEEEEE;
+  background: #eee;
 }
 
 @media (max-width: 460px) {

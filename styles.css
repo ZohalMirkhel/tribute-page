@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  font-family: sans-serif;
-  font-size: 1.6rem;
+  font-family: Arial;
+  font-size: 1rem;
   line-height: 1;
   text-align: center;
   color: #333;
@@ -24,10 +24,11 @@ h1 {
 }
 
 #img {
-  max-width: 100%;
+  
   align-items: center;
 }
 img {
+  max-width: 100%;
   display: block;
   height: auto;
   margin: 0 auto;
@@ -62,7 +63,7 @@ a:visited {
 }
 
 #main {
-  margin: 35px 10px;
+  margin: 30px 7px;
   padding: 15px;
   border-radius: 5px;
   background: #EEEEEE;
@@ -72,4 +73,20 @@ a:visited {
   #main {
     margin: 0;
   }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
 }

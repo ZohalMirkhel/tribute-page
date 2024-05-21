@@ -7,7 +7,7 @@ body {
   font-size: 1.6rem;
   line-height: 1;
   text-align: center;
-  color: #EEEEEE;
+  color: #333;
   margin: 0;
 }
 
@@ -23,11 +23,30 @@ h1 {
   }
 }
 
-img {
+#img {
   max-width: 100%;
+  align-items: center;
+}
+img {
   display: block;
   height: auto;
   margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+  
+@media (max-width: 460px) {
+  #img-caption {
+      font-size: 1.4rem;
+  }
 }
 
 h2 {
